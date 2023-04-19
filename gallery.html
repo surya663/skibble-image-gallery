@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" type="text/css" href="gallery.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Georgian:wght@600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>My Image Gallery</h1>
+    </header>
+    <aside>
+        <h2>Jump by Category:</h2>
+        <ul>
+            <li><a href="#zero">Fate/Zero</a></li>
+            <li><a href="#ubw">Fate/UBW</a></li>
+            <li><a href="#hf">Fate/HF</a></li>
+        </ul>
+    </aside>
+    <section id="gallery">
+        <div class="image-container">
+            <img id="zero" src="./images/zero-1.jpg" alt="Fate/Zero 1">
+            <div class="caption">Fate/Zero 1</div>
+        </div>
+        <div class="image-container">
+            <img id="zero" src="./images/zero-2.jpg" alt="Fate/Zero 2">
+            <div class="caption">Fate/Zero 2</div>
+        </div>
+        <div class="image-container">
+            <img id="zero" src="./images/zero-3.jpg" alt="Fate/Zero 3">
+            <div class="caption">Fate/Zero 3</div>
+        </div>
+        <div class="image-container">
+            <img id="zero" src="./images/zero-4.jpg" alt="Fate/Zero 4">
+            <div class="caption">Fate/Zero 4</div>
+        </div>
+        <div class="image-container">
+            <img id="zero" src="./images/zero-5.jpg" alt="Fate/Zero 5">
+            <div class="caption">Fate/Zero 5</div>
+        </div>
+        <div class="image-container">
+            <img id="ubw" src="./images/ubw-1.jpg" alt="Fate/UBW 1">
+            <div class="caption">Fate/UBW 1</div>
+        </div>
+        <div class="image-container">
+            <img id="ubw" src="./images/ubw-2.jpg" alt="Fate/UBW 2">
+            <div class="caption">Fate/UBW 2</div>
+        </div>
+        <div class="image-container">
+            <img id="ubw" src="./images/ubw-3.jpg" alt="Fate/UBW 3">
+            <div class="caption">Fate/UBW 3</div>
+        </div>
+        <div class="image-container">
+            <img id="ubw" src="./images/ubw-4.jpg" alt="Fate/UBW 4">
+            <div class="caption">Fate/UBW 4</div>
+        </div>
+        <div class="image-container">
+            <img id="ubw" src="./images/ubw-5.jpg" alt="Fate/UBW 5">
+            <div class="caption">Fate/UBW 5</div>
+        </div>
+        <div class="image-container">
+            <img id="hf" src="./images/hf-1.jpg" alt="Fate/HF 1">
+            <div class="caption">Fate/HF 1</div>
+        </div>
+        <div class="image-container">
+            <img id="hf" src="./images/hf-2.jpg" alt="Fate/HF 2">
+            <div class="caption">Fate/HF 2</div>
+        </div>
+        <div class="image-container">
+            <img id="hf" src="./images/hf-3.jpg" alt="Fate/HF 3">
+            <div class="caption">Fate/HF 3</div>
+        </div>
+    </section>
+    <div id="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content">
+        <div class="modal-caption"></div>
+    </div>
+    <script src="gallery.js"></script>
+</body>
+
+</html>
